@@ -1,0 +1,16 @@
+/* hidden part of text */
+* {
+  margin: 0;
+  padding: 0;
+}
+.title {
+  background-image: linear-gradient(
+    to right,
+    rgb(192, 152, 186),
+    rgb(57, 12, 57)
+  );
+  display: block;
+  width: 272px;
+  height: 36px;
+  overflow: hidden;
+}
