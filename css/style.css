@@ -3,14 +3,106 @@
   margin: 0;
   padding: 0;
 }
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+/* TITLE */
 .title {
   background-image: linear-gradient(
     to right,
-    rgb(192, 152, 186),
-    rgb(57, 12, 57)
+    rgb(214, 185, 209),
+    rgb(102, 49, 102)
   );
   display: block;
   width: 272px;
   height: 36px;
   overflow: hidden;
+  margin-bottom: 20px;
+}
+/* RADIUS */
+.radius {
+  width: 300px;
+  padding: 15px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 100px;
+  border: 8px solid rgb(66, 93, 141);
+  border-top: none;
+}
+/* EFFECT */
+.effect {
+  display: inline-block;
+  font-size: 60px;
+  background-repeat: no-repeat;
+  background-position: center bottom 15px;
+  background-size: 100% 10px;
+  background-image: linear-gradient(to right, orange, orange);
+}
+
+/* box // nth-child*/
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.box-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: plum;
+  border: 1px solid purple;
+}
+/* кожен третій починаючи з першого */
+/* even / odd */
+.box-1:nth-child(3n + 1) {
+  background-color: black;
+  color: #fff;
+  height: 60px;
+}
+/* aside */
+.aside {
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+.first {
+  width: 220px;
+  height: 150px;
+  background-color: rebeccapurple;
+}
+.second {
+  margin-right: 15px;
+  background-color: bisque;
+  flex-grow: 1;
+}
+/* flex-shrink: 0  ---- не стискатися // залишається стандартний розмір */
+
+/* TODO: коли два елемента по 50% а потім потрібно залишити лише один який доступний на всю ширину */
+/* flex-basis:50%;
+flex-grow:1;
+ */
+.two {
+  margin: 20px 0;
+  padding: 0 20px;
+  display: flex;
+}
+.one {
+  height: 70px;
+  background: orange;
+  flex-basis: 50%;
+  flex-grow: 1;
+  margin-right: 20px;
+}
+.next {
+  background: red;
+  height: 70px;
+  flex-basis: 50%;
+  flex-grow: 1;
 }
