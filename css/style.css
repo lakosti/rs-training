@@ -106,3 +106,24 @@ flex-grow:1;
   flex-basis: 50%;
   flex-grow: 1;
 }
+/* SHADOW */
+.flex {
+  display: flex;
+}
+.shadow {
+  margin-left: 20px;
+  width: 150px;
+  height: 150px;
+  background-color: rgb(71, 97, 88);
+  box-shadow: 8px 8px 0px 0px black;
+  /*         x   y   чіткіс / всі сторони    */
+}
+
+.inset {
+  margin-left: 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  /* border: 2px solid grey; */
+  box-shadow: inset 0px 0px 29px 8px gray;
+}
