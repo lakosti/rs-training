@@ -24,7 +24,7 @@ git checkout master
 
 git pull -- download changes from repo
 
-get branch --delete 'name branch'
+get branch --delete 'name branch' /// git branch -D fn123
 
 git push origin master -- push your changes in your branch
 
