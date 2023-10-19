@@ -18,15 +18,17 @@ get checkout 'namebranch' -- switch the branch
 
 git add .
 
+git add -A --- add all files // the better way use this command
+
 git commit -m 'add some text' -- add name of your commit
+
+git push origin master -- push your changes in your branch
 
 git checkout master
 
 git pull -- download changes from repo
 
 get branch --delete 'name branch' /// git branch -D fn123
-
-git push origin master -- push your changes in your branch
 
 git status -- information about your files (not saved - red color / saved - green)
 
