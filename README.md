@@ -10,9 +10,9 @@ git remote add origin http://github.com/link -- connect our github with local fo
 
 git branch -- my curently branch
 
-git branch 'namebranch' -- create a new branch
+git branch namebranch -- create a new branch
 
-get switch 'namebranch' -- switch the branch
+get checkout 'namebranch' -- switch the branch
 
 git clone http://github.com/link -- clone repo from github only one
 
