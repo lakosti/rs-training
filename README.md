@@ -20,7 +20,11 @@ git add .
 
 git commit -m 'add some text' -- add name of your commit
 
+git checkout master
+
 git pull -- download changes from repo
+
+get branch --delete 'name branch'
 
 git push origin master -- push your changes in your branch
 
