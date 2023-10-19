@@ -14,6 +14,8 @@ git branch namebranch -- create a new branch
 
 get checkout 'namebranch' -- switch the branch
 
+git add . --
+
 git clone http://github.com/link -- clone repo from github only one
 
 git pull -- download changes from repo
