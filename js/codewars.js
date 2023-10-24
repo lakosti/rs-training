@@ -51,3 +51,56 @@
 
 // console.log(areaOrPerimeter(3, 3));
 // console.log(areaOrPerimeter(6, 10));
+
+//TASKS ВИЗНАЧЕННЯ КВАРТАЛУ МІСЯЦЯ______________________________
+// const quarterOf = (month) => {
+//   return Math.ceil(month / 3);
+
+//   ///АБО ТАК
+
+//   //   if (month <= 3) {
+//   //     return 1;
+//   //   } else if (month <= 6) {
+//   //     return 2;
+//   //   } else if (month <= 9) {
+//   //     return 3;
+//   //   } else if (month <= 12) {
+//   //     return 4;
+//   //   }
+
+//   //або switch
+//   //   switch (month) {
+//   //     case 1:
+//   //     case 2:
+//   //     case 3:
+//   //       quarter = 1;
+//   //       break;
+//   //     case 4:
+//   //     case 5:
+//   //     case 6:
+//   //       quarter = 2;
+//   //       break;
+//   //     case 7:
+//   //     case 8:
+//   //     case 9:
+//   //       quarter = 3;
+//   //       break;
+//   //   }
+//   //   return quarter;
+// };
+// //
+
+// console.log(quarterOf(3)); //1
+// console.log(quarterOf(8)); //3
+// console.log(quarterOf(11)); //4
+// console.log(quarterOf(5)); //2
+
+//TASK 6 ВЕЛИКА ПЕРША ЛІТЕРА_______________________________
+
+// function capitalizeWord(word) {
+//   return word[0].toUpperCase() + word.slice(1);
+// }
+
+// console.log(capitalizeWord('hi'));
+// console.log(capitalizeWord('Hi'));
+// console.log(capitalizeWord('ggregerger'));
