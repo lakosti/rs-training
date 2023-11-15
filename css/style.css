@@ -101,7 +101,8 @@ flex-grow:1;
   margin-right: 20px;
 }
 .next {
-  background: red;
+  background-color: #0000ff;
+  border-style: dashed;
   height: 70px;
   flex-basis: 50%;
   flex-grow: 1;
@@ -126,4 +127,9 @@ flex-grow:1;
   border-radius: 100%;
   /* border: 2px solid grey; */
   box-shadow: inset 0px 0px 29px 8px gray;
+}
+.test {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
